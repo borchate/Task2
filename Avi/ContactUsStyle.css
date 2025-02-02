@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    background-image:url(easy-electronics-project.jpg);
+    height: 150px;
+}
+nav {
+    display: flex;
+    justify-content: left;
+    background-color: #555;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+}
+nav a:hover {
+    background-color: #777;
+}
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 2em 0;
+  }
+  .contact-section h2 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .contact-section p {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  .contact-info {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  .contact-info p {
+    margin: 0.5em 0;
+  }
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+  .contact-form input, .contact-form textarea {
+    margin-bottom: 1em;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  .contact-form button {
+    background-color: #444;
+    color: #fff;
+    padding: 0.8em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  .contact-form button:hover {
+    background-color: #333;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
